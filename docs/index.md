@@ -6,5 +6,5 @@ nav_order: 2
 
 This documentation is intended for the servers maintained by the LHCb Milano group.
 
-1. [User documentation]({% link LHCb-MI-Computing/users.md %})
-2. [System administrators documentation]({% link LHCb-MI-Computing/sysadmin.md %})
+1. [User documentation]({% link users.md %})
+2. [System administrators documentation]({% link sysadmin.md %})
