@@ -1,1 +1,1 @@
-# LHC   b-MI-Computing
+# LHCb Milano Computing
