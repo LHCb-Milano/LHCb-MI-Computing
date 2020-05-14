@@ -1,6 +1,7 @@
 ---
-title: System administrators documentation
-parent: Documentation for LHCb Milano computing
+title: "System administrators documentation"
+parent: "Documentation for LHCb Milano computing"
+nav_order: 1
 ---
 
 # Introduction
