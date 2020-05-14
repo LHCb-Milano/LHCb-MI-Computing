@@ -11,5 +11,5 @@ kramdown:
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: false
-title: Documentation for LHCb Milano computing
+title: "Documentation for LHCb Milano computing"
 #theme: jekyll-theme-minimal
