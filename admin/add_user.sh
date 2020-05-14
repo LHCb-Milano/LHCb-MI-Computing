@@ -8,7 +8,8 @@ if [ -z "${user}" ]; then
 fi
 
 if id "$user" >/dev/null 2>&1; then
-        echo "User $user exists already."
+    echo "User $user exists already."
+    exit
 fi
 
 # adding user

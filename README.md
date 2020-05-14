@@ -24,4 +24,3 @@ The command:
 Run this command: `./set_quota.sh user_name`.
 
 This command sets the default disk quotas for a given user.
-
