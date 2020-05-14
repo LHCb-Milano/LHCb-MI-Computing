@@ -1,6 +1,7 @@
 ---
-title: User documentation
-parent: Documentation for LHCb Milano computing
+title: "User documentation"
+parent: "Documentation for LHCb Milano computing"
+nav_order: 1
 ---
 
 # Introduction
