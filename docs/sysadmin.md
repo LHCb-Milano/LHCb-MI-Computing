@@ -1,5 +1,6 @@
 ---
 title: System administrators documentation
+parent: Documentation for LHCb Milano computing
 ---
 
 # Introduction

@@ -1,6 +1,6 @@
 ---
 title: Documentation for LHCb Milano computing
-layout: index
+haschildren: true
 ---
 
 This documentation is intended for the servers maintained by the LHCb Milano group.

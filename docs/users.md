@@ -1,5 +1,6 @@
 ---
 title: User documentation
+parent: Documentation for LHCb Milano computing
 ---
 
 # Introduction
