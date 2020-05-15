@@ -7,3 +7,4 @@ nav_order: 4
 
 # Set up the VNC server
 
+Not much to do really. Just install the required package: `tigervnc-server`.

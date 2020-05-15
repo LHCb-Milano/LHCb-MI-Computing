@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Uncomment the following two lines for normal desktop:
+unset SESSION_MANAGER
+exec /etc/X11/xinit/xinitrc
+
+xsetroot -solid grey
+vncconfig -iconic &
+
+gnome-session &
