@@ -16,4 +16,4 @@ search_tokenizer_separator: /[\s/]+/
 aux_links:
   "LHCb-MI-Computing on GitHub":
     - "//github.com/LHCb-Milano/LHCb-MI-Computing"
-logo: "/LHCb-MI-Computing/docs/images/lhcb.png"
+logo: "/docs/images/lhcb.png"
