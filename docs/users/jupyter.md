@@ -32,4 +32,4 @@ In your local computer open another terminal and type:
 ssh -N -f -L localhost:8888:localhost:8888 <your_user_name>@<server_name>.mi.infn.it
 ```
 (replace 8888 with the port given by `jupyter`).
-Then open a browser in your local machine e go to http://localhost:8888/?token=<a_long_token>.
+Then open a browser in your local machine e go to `http://localhost:8888/?token=<a_long_token>`.
