@@ -1,6 +1,7 @@
 ---
 title: "Access"
 parent: "User documentation"
+grand_parent: "Documentation for LHCb Milano computing"
 nav_order: 1
 ---
 
