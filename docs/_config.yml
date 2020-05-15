@@ -8,7 +8,12 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
-search_enabled: false
 title: "LHCb Milano computing"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+aux_links:
+  "LHCb-MI-Computing on GitHub":
+    - "//github.com/LHCb-Milano/LHCb-MI-Computing"
+logo: "images/lhcb.png"
