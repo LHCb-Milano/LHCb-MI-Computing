@@ -1,13 +1,8 @@
 ---
-title: "System administrators documentation"
-parent: "Documentation for LHCb Milano computing"
-nav_order: 2
+title: "User management"
+parent: "System administrators documentation"
+nav_order: 1
 ---
-
-# Introduction
-In the `admin` directory there are some tools to help with system adiministration.
-
-The `skel` directory contains some useful file to use as skeleton home for new users. You should have these files inside `/etc/skel`.
 
 # Add a new user
 Run this command: `./add_user.sh new_user_name`.
@@ -21,7 +16,3 @@ The command:
 Run this command: `./set_quota.sh user_name`.
 
 This command sets the default disk quotas for a given user.
-
-# Set up the VNC server
-
-# Set up the Jupyter server
