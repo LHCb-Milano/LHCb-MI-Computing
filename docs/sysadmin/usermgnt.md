@@ -20,7 +20,7 @@ Run this command: `./set_quota.sh user_name`.
 
 This command sets the default disk quotas for a given user.
 
-See the [user documentation](/users/storage.md) for more information about disk quota.
+See the [user documentation](../users/storage.md) for more information about disk quota.
 
 ### Technical details on disk quotas
 The disk quotas are implemented as *user* quotas in `/home` and as *project* quotas in `/scratch`.
