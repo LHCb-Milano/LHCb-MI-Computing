@@ -2,7 +2,7 @@
 title: "GPU"
 parent: "System administrators documentation"
 grand_parent: "Documentation for LHCb Milano computing"
-nav_order: 2
+nav_order: 5
 ---
 
 # GPU NVIDIA Tesla T4
