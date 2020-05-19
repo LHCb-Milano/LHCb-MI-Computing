@@ -16,6 +16,8 @@ Use the following command to activate the LHCb environment:
 
 You should land on an environment very similar to CERN lxplus. For convenience, you can put this in your `.bashrc` file (this like should be there already, you only need to uncomment it).
 
+See also the [official docs](https://twiki.cern.ch/twiki/bin/view/LHCb/LbEnv){:target="_blank"} for more advanced configurations.
+
 ## Additional software
 Some additional software is available through the [Software Collections for CERN CentOS 7](https://linux.web.cern.ch/centos7/docs/softwarecollections/){:target="_blank"}.
 For example if you want a newer version of `git` you can do: `source scl_source enable rh-git218`. Also in this case you can put this line in you `.bashrc` for convenience.
