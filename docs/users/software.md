@@ -12,7 +12,7 @@ The LHCb software is available through [CVMFS](https://cernvm.cern.ch/portal/fil
 
 Use the following command to activate the LHCb environment:
 
-`source /cvmfs/lhcb.cern.ch/lib/etc/cern_profile.sh`
+`source /cvmfs/lhcb.cern.ch/lib/LbEnv`
 
 You should land on an environment very similar to CERN lxplus. For convenience, you can put this in your `.bashrc` file (this like should be there already, you only need to uncomment it).
 
