@@ -1,0 +1,16 @@
+# Slot configuration
+# Lie about the amount of memory available
+MEMORY = $(DETECTED_MEMORY)*2
+# Each slot has 3 GB of memory. Notice that this is over the real amount of available memory for 48 slots
+SLOT_TYPE_1 = mem=3072
+# Set the number of slots to 48
+NUM_SLOTS_TYPE_1 = 48
+
+# The line below is for evenly distributed resources
+#NUM_SLOTS = 48
+
+# Kill jobs running for more the 2 days
+PREEMPT = $(ActivationTimer) > 48 * $(HOUR)
+
+# Kill jobs using more than the assigned memory (3 GB)
+CGROUP_MEMORY_LIMIT_POLICY = hard
