@@ -1,0 +1,9 @@
+Getenv = True
+
+Executable     = test_memory.py
+Log            = test_memory.log
+Output         = test_memory-stdout
+Error          = test_memory-stderr
+Universe       = vanilla
+
+queue

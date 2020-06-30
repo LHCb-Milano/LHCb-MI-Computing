@@ -1,0 +1,9 @@
+Getenv = True
+
+Executable     = test_time.py
+Log            = test_time.log
+Output         = test_time-stdout
+Error          = test_time-stderr
+Universe       = vanilla
+
+queue
