@@ -5,24 +5,28 @@ grand_parent: "Documentation for LHCb Milano computing"
 nav_order: 1
 ---
 
-# User management
+## User management
 
-## Add a new user
+### Add a new user
+
 Run this command: `./add_user.sh new_user_name`.
 
 The command:
+
 - creates the new user;
 - creates a new folder under `/scratch/user/new_user_name` and assign new_user_name as its owner;
 - set the disk quotas using the script `set_quota.sh`.
 
-## Set disk quota for a user
+### Set disk quota for a user
+
 Run this command: `./set_quota.sh user_name`.
 
 This command sets the default disk quotas for a given user.
 
 See the [user documentation](../users/storage.md) for more information about disk quota.
 
-### Technical details on disk quotas
+#### Technical details on disk quotas
+
 The disk quotas are implemented as *user* quotas in `/home` and as *project* quotas in `/scratch`.
 User quotas are based on file ownership, regardless of the location of the file (inside the mount point).
 Project quotas are based on file location, regardless of file ownership.

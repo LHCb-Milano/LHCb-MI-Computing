@@ -5,10 +5,12 @@ grand_parent: "Documentation for LHCb Milano computing"
 nav_order: 1
 ---
 
-# Storage
+## Storage
+
 Each user has access to his/her own `home` directory and to a user work space in `\scratch\user\user_name`.
 
-## Disk quotas
+### Disk quotas
+
 Quotas are implemented in two stages: *soft* and *hard*. When a *soft* quota is hit, a timer starts. The user gets a warning and he/she has *7 days* to clean up their space. When the timer pops, the user will be unable to write on disk. The *hard* quota takes effect immediately: when the quota is hit, the user cannot write on disk. The quotas of `home` and `scratch` are independent. The table below reports the standard quota assigned to each user.
 
 | mount point | soft quota | hard quota |
