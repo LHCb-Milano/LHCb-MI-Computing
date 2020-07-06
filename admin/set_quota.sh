@@ -8,4 +8,4 @@ if [ -z "${user}" ]; then
 fi
 
 sudo xfs_quota -x -c "limit bsoft=150g bhard=200g isoft=1000000 ihard=2000000 ${user}" /home
-sudo xfs_quota -x -c "limit -p bsoft=1024g bhard=1536g isoft=5000000 ihard=10000000 ${user}" /scratch
+sudo xfs_quota -x -c "limit -g bsoft=1024g bhard=1536g isoft=5000000 ihard=10000000 ${user}" /scratch

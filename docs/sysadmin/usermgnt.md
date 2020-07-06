@@ -27,10 +27,12 @@ See the [user documentation](../users/storage.md) for more information about dis
 
 #### Technical details on disk quotas
 
-The disk quotas are implemented as *user* quotas in `/home` and as *project* quotas in `/scratch`.
-User quotas are based on file ownership, regardless of the location of the file (inside the mount point).
-Project quotas are based on file location, regardless of file ownership.
+The disk quotas are implemented as *user* quotas in `/home` and as *group* quotas in `/scratch`.
 
-In order to mimic user quotas in `/scratch`, we give users write permissions only to their own space (`/scratch/user/user_name`), so that each file they create will count against their "project" quotas. However, project quotas are more flexible than user quotas, since we can also create actual projects in `/scratch/project`. In that case, we create also a project group and assign relevant users to that project group. Both the project leader and project group own the project directory and all its files and have read/write permissions.
+Users have read/write permissions only in their own space (`/scratch/user/user_name`).
+To create a new project, first create a new group with the same name and a work directory in `/scratch/project`. The new directory must be owned by the new group, which also has read/write permissions. Users participating in the project should be added to the corresponding group, so that they can read/write the directory. Two trick are needed to make this work flawlessly (see also [this link](https://unix.stackexchange.com/a/115632){:target="_blank"}):
+
+1. The group ownership should be inherited from the parent directory for all new files created in the project directory.
+2. The group read/write permissions should be inherited from the parent directory. This is achieved through ACL.
 
 Instructions to set up user, group and project quotas are found in [this webpage](https://www.linuxtechi.com/disk-quota-xfs-file-system-linux-servers/){:target="_blank"}.

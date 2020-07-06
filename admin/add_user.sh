@@ -22,11 +22,5 @@ sudo passwd $user
 sudo mkdir /scratch/user/$user
 sudo chown $user:$user /scratch/user/$user
 
-# creating project for user
-userid=$(id -u $user)
-echo "$userid:/scratch/user/$user" | sudo tee -a /etc/projects >> /dev/null
-echo "$user:$userid" | sudo tee -a /etc/projid >> /dev/null
-sudo xfs_quota -x -c "project -s $user" /scratch
-
 # setting the quota
 ./set_quota.sh $user
