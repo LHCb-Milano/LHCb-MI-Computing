@@ -30,7 +30,7 @@ To check your quota in `/home`:
 
 To check your quota in `/scratch`
 
-`xfs_quota -c 'quota -g -h saiola' /scratch`
+`xfs_quota -c 'quota -g -h <your_user_name>' /scratch`
 
 ### Check your disk space utilization
 
