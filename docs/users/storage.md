@@ -22,6 +22,16 @@ Quotas also apply to the total number of files. However, this quota is very larg
 
 It is possible to allocate quotas for projects in `/scratch/project/project_name`. Users are assigned to a project and can access in read/write the project space.
 
+### Check your quota
+
+To check your quota in `/home`:
+
+`xfs_quota -c 'quota -u -h <your_user_name>' /home`
+
+To check your quota in `/scratch`
+
+`xfs_quota -c 'quota -g -h saiola' /scratch`
+
 ### Check your disk space utilization
 
 A useful command to check disk space utlization is the following:
