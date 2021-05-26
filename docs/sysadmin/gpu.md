@@ -10,4 +10,4 @@ nav_order: 5
 First step is to install the NVIDIA drivers: visit [this page](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#unique_1068237798){:target="_blank"}.
 Then install the [CUDA drivers](https://developer.nvidia.com/cuda-toolkit-archive){:target="_blank"}.
 See also the instructions for [TensorFlow GPU support](https://www.tensorflow.org/install/gpu){:target="_blank"}.
-We currently installed CUDA 10.1 and 10.2. This version is compatible with TensforFlow 2.x but *not* with TensorFlow 1.x.
+We currently installed CUDA 10.1, 10.2 and 11.3. This version is compatible with TensforFlow 2.x but *not* with TensorFlow 1.x.
