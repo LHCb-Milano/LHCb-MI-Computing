@@ -20,7 +20,7 @@ conda create -n <my_beautiful_environment_name> tensorflow-gpu <other_beautiful_
 This command will create an environment named `<my_beautiful_environment>` with the lastest version of tensorflow compiled for GPU compatible with your system available on default channels (conda, conda-forge, ...). You can specify a particular version of a package with `<package>==version`.
 At the time of writing (26/05/2021), the following command is working and should install everything needed for almost everyone
 ```
-conda create -n <my_beautiful_environment_name> tensorflow-gpu tensorflow-probability matplotlib seaborn root root-numpy root-pandas python=3.8 -c conda-forge
+conda create -n <my_beautiful_environment_name> tensorflow-gpu tensorflow-probability matplotlib seaborn root root_numpy root_pandas python=3.8 -c conda-forge
 ```
 Once the environment is created, you could activate it
 ```
