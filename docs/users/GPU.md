@@ -17,7 +17,7 @@ To run tensorflow on the GPU available on our machine we have to create our own 
 ```
 conda create -n <my_beautiful_environment_name> tensorflow-gpu <other_beautiful_packages> -c conda-forge
 ```
-This command will create an environment named `<my_beautiful_environment>` with the lastest version of tensorflow compiled for GPU compatible with your system available on default channels (conda, conda-forge, ...). You can specify a particular version of a package with `<package>==version`.
+This command will create an environment named `<my_beautiful_environment_name>` with the lastest version of tensorflow compiled for GPU compatible with your system available on default channels (conda, conda-forge, ...). You can specify a particular version of a package with `<package>==version`.
 At the time of writing (26/05/2021), the following command is working and should install everything needed for almost everyone
 ```
 conda create -n <my_beautiful_environment_name> tensorflow-gpu tensorflow-probability matplotlib seaborn root root_numpy root_pandas python=3.8 -c conda-forge
